@@ -123,3 +123,12 @@ def test_get_user_id_1(mock_psycopg2_connect):
 # Better would be to set the test data yourself, then check for it.
 def test_get_user_id_1_nomock():
     pass
+
+# import sys
+# sys.path.append('C:\\Users\\ehcre\\.vscode\\projects\\.venv\\Lib\\site-packages')
+# print(sys.path)
+# for i in sys.path:
+#     print(i)
+
+if __name__ == "__main__":
+    pytest.main()

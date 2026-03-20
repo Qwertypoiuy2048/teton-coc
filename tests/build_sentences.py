@@ -105,7 +105,7 @@ def build_sentence(seed_word, structure, data):
 def main():
     user_input = get_seven_letter_word()
     structure = choose_sentence_structure()
-    data = parse_json_from_file("word_lists.json")
+    data = parse_json_from_file("C:\\Users\\ehcre\\.vscode\\projects\\CSE 270\\teton-coc\\tests\\word_lists.json")#"word_lists.json")
     sentence = build_sentence(user_input, structure, data)
     print(sentence)
     
