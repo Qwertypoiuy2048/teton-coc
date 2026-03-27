@@ -9,7 +9,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-BASE_URL = "http://127.0.0.1:5582/projects/CSE%20270/teton-coc/web/"
+BASE_URL = "http://127.0.0.1:5581/web/"
 
 PAGES = [
     "/index.html",
