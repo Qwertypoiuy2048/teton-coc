@@ -5,7 +5,7 @@ import pytest
 from playwright.sync_api import Page
 
 # URL we are testing
-BASE = "http://127.0.0.1:5581/web/index.html"
+BASE = "http://localhost:5581/web/index.html"
 
 # -------------------------
 # Helper functions
